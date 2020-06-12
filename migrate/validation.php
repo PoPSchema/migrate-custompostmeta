@@ -1,5 +1,5 @@
 <?php
-namespace PoP\PostMeta;
+namespace PoP\CustomPostMeta;
 use PoP\Translation\Facades\TranslationAPIFacade;
 use PoP\Hooks\Facades\HooksAPIFacade;
 
@@ -10,7 +10,7 @@ class Validation
     public function getProviderValidationClass()
     {
         return HooksAPIFacade::getInstance()->applyFilters(
-            'PoP_PostMeta_Validation:provider-validation-class',
+            'PoP_CustomPostMeta_Validation:provider-validation-class',
             null
         );
     }
@@ -29,7 +29,7 @@ class Validation
             HooksAPIFacade::getInstance()->addAction('network_admin_notices', array($this, 'providerinitialize_warning'));
             $success = false;
         }
-        
+
         if (!defined('POP_ENGINE_VERSION')) {
             HooksAPIFacade::getInstance()->addAction('admin_notices', array($this, 'installWarning'));
             HooksAPIFacade::getInstance()->addAction('network_admin_notices', array($this, 'installWarning'));

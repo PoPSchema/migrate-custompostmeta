@@ -6,7 +6,7 @@ Description: The foundation for a PoP Post Meta
 Plugin URI: https://getpop.org/
 Author: Leonardo Losoviz
 */
-namespace PoP\PostMeta;
+namespace PoP\CustomPostMeta;
 use PoP\Hooks\Facades\HooksAPIFacade;
 
 //-------------------------------------------------------------------------------------
@@ -19,7 +19,7 @@ class Plugins
 {
     public function __construct()
     {
-        
+
         // Priority: new section, after PoP CMS Model
         HooksAPIFacade::getInstance()->addAction('plugins_loaded', array($this, 'init'), 205);
     }
