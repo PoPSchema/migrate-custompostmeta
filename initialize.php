@@ -16,7 +16,7 @@ $class = (new class() extends \PoP\Root\Component\AbstractComponent
         parent::beforeBoot();
 
         // Initialize code
-        require_once 'migrate/pop-postmeta.php';
+        require_once 'migrate/pop-custompostmeta.php';
     }
 });
 $class::initialize();
