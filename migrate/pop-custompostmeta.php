@@ -6,7 +6,7 @@ Description: The foundation for a PoP Post Meta
 Plugin URI: https://getpop.org/
 Author: Leonardo Losoviz
 */
-namespace PoP\CustomPostMeta;
+namespace PoPSchema\CustomPostMeta;
 use PoP\Hooks\Facades\HooksAPIFacade;
 
 //-------------------------------------------------------------------------------------

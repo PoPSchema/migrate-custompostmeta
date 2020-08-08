@@ -1,5 +1,5 @@
 <?php
-namespace PoP\CustomPostMeta;
+namespace PoPSchema\CustomPostMeta;
 
 class FunctionAPIFactory
 {

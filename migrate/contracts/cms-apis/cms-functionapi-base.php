@@ -1,5 +1,5 @@
 <?php
-namespace PoP\CustomPostMeta;
+namespace PoPSchema\CustomPostMeta;
 
 abstract class FunctionAPI_Base implements FunctionAPI
 {

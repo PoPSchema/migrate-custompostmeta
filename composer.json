@@ -1,7 +1,7 @@
 {
-    "name": "getpop/migrate-custompostmeta",
+    "name": "pop-schema/migrate-custompostmeta",
     "type": "library",
-    "description": "(Temporary package) Migrate code to package https://github.com/getpop/custompostmeta. Target package description: Adds support for post meta",
+    "description": "(Temporary package) Migrate code to package https://github.com/pop-schema/custompostmeta. Target package description: Adds support for post meta",
     "keywords": [
         "PoP",
         "custompostmeta"
